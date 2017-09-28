@@ -30,3 +30,7 @@ td {
      color: grey;
     cursor: default;
 }
+
+#arrow {
+ font-size: 16pt;   
+}
