@@ -25,3 +25,7 @@ article p {
 td {
  padding-left: 10px;
 }
+
+#topic:hover {
+     color: dimgrey;
+}
