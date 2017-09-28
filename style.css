@@ -27,5 +27,6 @@ td {
 }
 
 #topic:hover {
-     color: dimgrey;
+     color: grey;
+    cursor: default;
 }
