@@ -22,7 +22,7 @@
         
     </head>
     
-    <body onload="setRandomColor()">
+    <body onload="setRandomColor();">
     
     <div id="container">
     <div id="placeholder"></div>
@@ -41,7 +41,25 @@
    
         
     <div id="placeholder" style="height: 100px;"></div>  
-        <p style="font-size: 9pt; margin-bottom: -6px;">Dein heutiger <a href="https://www.youtube.com/watch?v=zzeNAUOp17c" target="_blank"><span style="font-size: 9pt; text-decoration: underline;">Soundtrack</span></a>.</p> 
+        
+<script>
+
+var textArray = [
+    'https://www.youtube.com/watch?v=zzeNAUOp17c',
+    'https://www.youtube.com/watch?v=Vt2YIpZWBqA'
+];
+
+var randomNumber = Math.floor(Math.random()*textArray.length);  
+var result = textArray[randomNumber];
+
+</script>
+  
+        
+        <p style="font-size: 9pt; margin-bottom: -6px;">Dein heutiger<!-- <a href="https://www.youtube.com/watch?v=zzeNAUOp17c" target="_blank"><span style="font-size: 9pt; text-decoration: underline;">Soundtrack</span></a>-->      
+           
+            <script>
+            document.write('<a href="' + result + '" target="_blank"><span style="font-size: 9pt; text-decoration: underline;">Soundtrack</span></a>');
+            </script>.</p> 
        <!-- <p>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</p>
         <hr style="border-top: dotted 1px;" /> -->
         <hr style="border-top: dashed 1px;" />
@@ -63,6 +81,7 @@ function setRandomColor() {
   $("#header").css("color", getRandomColor());
 }
 </script>
+        
 </body>
 </html>
     
