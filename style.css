@@ -34,3 +34,17 @@ td {
 #arrow {
  font-size: 16pt;   
 }
+
+#vr {
+  width: 1px;
+  height: 100%;
+  background: black;
+  float: right;
+  position: absolute;
+  left: 600px;
+  top: 0px;
+}
+
+#container {
+  width: 800px;
+}
