@@ -1,0 +1,172 @@
+* {
+font-family: arial;
+font-size: 12pt;
+}
+
+body {
+width: 1500px;
+}
+
+#box {
+background: black;
+width: 300px;
+padding-left: 5px;
+padding-top: 10px;
+}
+
+#box h1 {
+color: white;
+line-height: 1;
+font-size: 2em;
+}   
+
+#hrtop {
+border: 1px black solid;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+width: 500px;
+position: relative;
+top: -30px;
+}   
+
+#nav {
+list-style-type: none;
+position: relative;
+top: -15px;
+left: -38px;
+}
+
+#nav a {
+color: black;
+text-decoration: none;
+}
+
+#nav li {
+display: inline;
+margin-right: 40px;
+}
+
+#navbox {
+border: 1px black solid;
+position: relative;
+left: 2px;
+width: 260px;
+padding: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#navbox td {
+display: block;
+width: 260px;
+padding: 0px;
+    margin: 0px;
+position: relative;
+top: -2.2px;
+left: -2px;
+}
+
+#navbox a {
+color: black;
+text-decoration: none;
+width: 260px;
+display: inline-block;
+}
+
+#navbox li {
+list-style-type: none;
+}
+
+#navbox a:hover {
+background: #E6E6E6;
+}
+
+#content {
+background: #F2F2F2;
+width: 800px;
+padding-top: 1px;
+padding-left: 5px;
+padding-bottom: 5px;
+float: right;
+margin-right: 387px;
+margin-top: -24px;
+}
+
+#content p {
+padding-left: 10px;
+padding-right: 10px;
+text-align: justify;
+line-height: 1.5;
+}
+
+#newsitem {
+ width: 200px;
+ border: 1px black solid;
+ position: relative;
+ left: 2px;
+ width: 260px;
+}
+
+#newsitem p {
+padding-left: 5px;
+padding-right: 5px;
+text-align: justify;
+}
+
+.search {
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+border-left: 0px;
+border-right: 0px;
+margin-left: 2px;
+margin-top: 15px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
+   font-style: italic; 
+}
+
+input:focus {outline:none;}
+
+footer a {
+text-decoration: none;
+font-size: 9pt;
+color: black;
+}
+
+footer {
+width: 150px;
+}
+
+.bbutton {
+background: black;
+width: 260px;
+margin-bottom: -10px;
+}
+
+.bbutton h2 {
+color: white;
+font-size: 14pt;
+padding: 3px;
+}
+
+.bbutton a {
+text-decoration: none;
+}
+
+.hr {
+border: 1px black solid; 
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+}
