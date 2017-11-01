@@ -12,6 +12,7 @@ background: black;
 width: 300px;
 padding-left: 5px;
 padding-top: 10px;
+display: inline-block;
 }
 
 #box h1 {
@@ -28,19 +29,24 @@ border-right: 0px;
 width: 500px;
 position: relative;
 top: -30px;
+left: -4px;
 }   
 
 #nav {
 list-style-type: none;
+border: 1px black solid;
+border-right: 0px;
+border-left: 0px;
+width: 600px;
 position: relative;
-top: -15px;
-left: -38px;
+left: -5px;
 }
 
 #nav a {
 color: black;
 text-decoration: none;
 }
+
 
 #nav li {
 display: inline;
@@ -83,14 +89,17 @@ background: #E6E6E6;
 }
 
 #content {
-background: #F2F2F2;
+background: #E8E8E8;
 width: 800px;
 padding-top: 1px;
 padding-left: 5px;
 padding-bottom: 5px;
 float: right;
 margin-right: 387px;
-margin-top: -24px;
+
+margin-bottom: 60px;
+position: relative;
+left: -3px;
 }
 
 #content p {
@@ -168,5 +177,17 @@ text-decoration: none;
 border: 1px black solid; 
 border-bottom: 0px;
 border-left: 0px;
+display: block;
+}
+
+#foot {
+height: 1px; 
+width: 1000px; 
+display:inline-block;
+border: 1px black solid; 
+border-bottom: 0px;
+border-left: 0px;
 border-right: 0px;
+position: relative;
+top: -50px;  
 }
