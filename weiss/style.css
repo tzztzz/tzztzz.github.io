@@ -21,17 +21,6 @@ line-height: 1;
 font-size: 2em;
 }   
 
-#hrtop {
-border: 1px black solid;
-border-bottom: 0px;
-border-left: 0px;
-border-right: 0px;
-width: 500px;
-position: relative;
-top: -30px;
-left: -4px;
-}   
-
 #nav {
 list-style-type: none;
 border: 1px black solid;
@@ -63,16 +52,6 @@ margin-top: 0px;
 margin-bottom: 0px;
 }
 
-#navbox td {
-display: block;
-width: 260px;
-padding: 0px;
-    margin: 0px;
-position: relative;
-top: -2.2px;
-left: -2px;
-}
-
 #navbox a {
 color: black;
 text-decoration: none;
@@ -96,7 +75,6 @@ padding-left: 5px;
 padding-bottom: 5px;
 float: right;
 margin-right: 387px;
-
 margin-bottom: 60px;
 position: relative;
 left: -3px;
@@ -171,13 +149,6 @@ padding: 3px;
 
 .bbutton a {
 text-decoration: none;
-}
-
-.hr {
-border: 1px black solid; 
-border-bottom: 0px;
-border-left: 0px;
-display: block;
 }
 
 #foot {
