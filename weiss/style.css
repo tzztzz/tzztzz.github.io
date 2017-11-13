@@ -68,16 +68,16 @@ background: #E6E6E6;
 }
 
 #content {
+display: inline-block;
 background: #E8E8E8;
 width: 800px;
 padding-top: 1px;
 padding-left: 5px;
 padding-bottom: 5px;
 float: right;
-margin-right: 387px;
 margin-bottom: 60px;
 position: relative;
-left: -3px;
+left: 43px;
 }
 
 #content p {
