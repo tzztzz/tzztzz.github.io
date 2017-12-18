@@ -146,6 +146,14 @@ color: black;
 margin-right: 4px;
 }
 
+.versions li {
+display: inline;
+}
+
+.versions ul {
+list-style-type: none;
+}
+
 .bbutton {
 background: black;
 width: 260px;
