@@ -130,10 +130,14 @@ color: black;
 width: 150px;
 }
 
+.versions {
+margin-top: -50px; 
+}
 .versions a {
 text-decoration: underline;
-font-size: 9pt;
+font-size: 8.5pt;
 color: black;
+margin-right: 4px;
 }
 
 .bbutton {
