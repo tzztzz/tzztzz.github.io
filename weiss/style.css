@@ -120,13 +120,13 @@ margin-top: 15px;
 
 input:focus {outline:none;}
 
-footer a {
+.links a {
 text-decoration: none;
 font-size: 9pt;
 color: black;
 }
 
-footer {
+.links {
 width: 150px;
 }
 
