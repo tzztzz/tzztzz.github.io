@@ -140,6 +140,12 @@ color: black;
 margin-right: 4px;
 }
 
+.versions p {
+font-size: 8.5pt;
+color: black;
+margin-right: 4px;
+}
+
 .bbutton {
 background: black;
 width: 260px;
