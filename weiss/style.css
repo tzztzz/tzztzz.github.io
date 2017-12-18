@@ -144,6 +144,8 @@ margin-right: 4px;
 font-size: 8.5pt;
 color: black;
 margin-right: 4px;
+display: inline;
+margin-top: 0px;
 }
 
 .versions li {
@@ -152,6 +154,8 @@ display: inline;
 
 .versions ul {
 list-style-type: none;
+margin-top: 0px;
+margin-left: -30px;
 }
 
 .bbutton {
