@@ -130,6 +130,12 @@ color: black;
 width: 150px;
 }
 
+.versions a {
+text-decoration: underline;
+font-size: 9pt;
+color: black;
+}
+
 .bbutton {
 background: black;
 width: 260px;
