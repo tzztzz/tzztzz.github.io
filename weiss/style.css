@@ -41,8 +41,7 @@ margin-right: 40px;
 #navbox {
 border: 1px black solid;
 position: relative;
-left: 2px;
-width: 260px;
+width: 262px;
 padding: 0px;
 margin-top: 0px;
 margin-bottom: 0px;
@@ -85,8 +84,7 @@ line-height: 1.5;
  width: 200px;
  border: 1px black solid;
  position: relative;
- left: 2px;
- width: 260px;
+ width: 262px;
 }
 
 #newsitem p {
@@ -133,6 +131,7 @@ width: 150px;
 
 .versions {
 margin-top: -50px; 
+margin-left: -10px;
 }
 .versions a {
 text-decoration: underline;
@@ -161,7 +160,7 @@ margin-left: -30px;
 
 .bbutton {
 background: black;
-width: 260px;
+width: 264px;
 margin-bottom: -10px;
 }
 
@@ -177,7 +176,7 @@ text-decoration: none;
 
 #foot {
 height: 1px; 
-width: 1000px; 
+width: 264px; 
 display:inline-block;
 border: 1px black solid; 
 border-bottom: 0px;
