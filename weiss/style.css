@@ -102,6 +102,8 @@ border-left: 0px;
 border-right: 0px;
 margin-left: 2px;
 margin-top: 15px;
+font-style: italic;
+color: #262626;
 }
 
 ::-webkit-input-placeholder {
