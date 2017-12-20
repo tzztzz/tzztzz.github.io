@@ -70,12 +70,12 @@
 <a href="#">ссылка</a>
 </div>
 
-<div class="bbutton">
-<a href="#"><h2>ПРИВЕТ</h2></a>
+<div class="bbutton" id="b1" onmouseover="buttonon1()" onmouseout="buttonoff1()">
+<a href="#"><h2 id="cap1">ПРИВЕТ</h2></a>
 </div>
     
-<div class="bbutton">
-<a href="#"><h2>ПРИВЕТ</h2></a>
+<div class="bbutton" id="b2" onmouseover="buttonon2()" onmouseout="buttonoff2()">
+<a href="#"><h2 id="cap2">ПРИВЕТ</h2></a>
 </div>
 </div>
     
@@ -143,6 +143,42 @@
     function htext4() {
         var x = document.getElementById("black4");
         var y = document.getElementById("4");
+        x.style.background = 'black';
+        y.style.color = 'white';
+    }
+        
+        
+        
+    
+        
+        
+        
+    
+        
+    function buttonon1() {
+        var x = document.getElementById("b1");
+        var y = document.getElementById("cap1");
+        x.style.background = 'white';
+        y.style.color = 'black';
+    }
+
+    function buttonoff1() {
+        var x = document.getElementById("b1");
+        var y = document.getElementById("cap1");
+        x.style.background = 'black';
+        y.style.color = 'white';
+    }
+        
+     function buttonon2() {
+        var x = document.getElementById("b2");
+        var y = document.getElementById("cap2");
+        x.style.background = 'white';
+        y.style.color = 'black';
+    }
+
+    function buttonoff2() {
+        var x = document.getElementById("b2");
+        var y = document.getElementById("cap2");
         x.style.background = 'black';
         y.style.color = 'white';
     }
