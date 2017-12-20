@@ -20,7 +20,7 @@
 </a>
 
 <div style="display: inline-block;">
-<ul id="nav" style="top: -60px;">
+<ul id="nav" class="nav1" style="top: -60px;">
 <li><a href="#">главная</a></li> 
 <li><a href="#">о нас</a></li>   
 <li><a href="#">проекты</a></li>   
@@ -28,11 +28,11 @@
 </ul>
 
 
-<ul id="nav" style="width: 706px; top: -40px;">
-<li style="margin-right: 120px;"><a href="#">главная</a></li> 
-<li style="margin-right: 120px;"><a href="#">о нас</a></li>   
-<li style="margin-right: 120px;"><a href="#">проекты</a></li>   
-<li><a href="#">контакт</a></li>   
+<ul id="nav" style="width: 700px; top: -40px;">
+<li style="margin-left: -10px; margin-right: -4.5px; padding: 0.4px;" id="black1" onmouseover="stext1()" onmouseout="htext1()"><a href="#" id="1">главная</a></li> 
+<li style="margin-right: -4.5px; padding: 0.4px;" id="black2" onmouseover="stext2()" onmouseout="htext2()"><a href="#" id="2">о нас</a></li>   
+<li style="margin-right: -4.5px; padding: 0.4px;" id="black3" onmouseover="stext3()" onmouseout="htext3()"><a href="#" id="3">проекты</a></li>   
+<li id="black4" style="padding: 0.4px;" onmouseover="stext4()" onmouseout="htext4()"><a href="#" id="4">контакт</a></li>   
 </ul>
 </div>
 
@@ -90,7 +90,63 @@
 </ul>
 </div>
 
+    <script>
+     function stext1() {
+        var x = document.getElementById("black1");
+        var y = document.getElementById("1");
+        x.style.background = 'white';
+        y.style.color = 'black';
+    }
 
+    function htext1() {
+        var x = document.getElementById("black1");
+        var y = document.getElementById("1");
+        x.style.background = 'black';
+        y.style.color = 'white';
+    }
+        
+      function stext2() {
+        var x = document.getElementById("black2");
+        var y = document.getElementById("2");
+        x.style.background = 'white';
+        y.style.color = 'black';
+    }
+
+    function htext2() {
+        var x = document.getElementById("black2");
+        var y = document.getElementById("2");
+        x.style.background = 'black';
+        y.style.color = 'white';
+    }
+    
+      function stext3() {
+        var x = document.getElementById("black3");
+        var y = document.getElementById("3");
+        x.style.background = 'white';
+        y.style.color = 'black';
+    }
+
+    function htext3() {
+        var x = document.getElementById("black3");
+        var y = document.getElementById("3");
+        x.style.background = 'black';
+        y.style.color = 'white';
+    }
+    
+      function stext4() {
+        var x = document.getElementById("black4");
+        var y = document.getElementById("4");
+        x.style.background = 'white';
+        y.style.color = 'black';
+    }
+
+    function htext4() {
+        var x = document.getElementById("black4");
+        var y = document.getElementById("4");
+        x.style.background = 'black';
+        y.style.color = 'white';
+    }
+    </script>
 </body>
 
 </html>

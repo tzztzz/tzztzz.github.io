@@ -19,7 +19,7 @@ font-size: 2em;
 
 #nav {
 list-style-type: none;
-border: 1px black solid;
+
 border-right: 0px;
 border-left: 0px;
 width: 600px;
@@ -35,9 +35,19 @@ text-decoration: none;
 
 #nav li {
 display: inline;
-margin-right: 40px;
 }
 
+.nav1 li {
+    margin-right: 85px;
+}
+
+.nav1 a {
+ font-size: 9pt;
+}  
+
+.nav1 {
+ border: 1px black solid;
+}  
 #navbox {
 border: 1px black solid;
 position: relative;
@@ -94,7 +104,6 @@ text-align: justify;
 }
 
 .search {
-width: 230px;
 border-bottom: 1px solid black;
 border-top: 1px solid black;
 border-left: 0px;
@@ -185,4 +194,15 @@ border-left: 0px;
 border-right: 0px;
 position: relative;
 top: -50px;  
+}
+
+#black1, #black2, #black3, #black4 {
+background: black;
+}
+
+#black1 a, #black2 a, #black3 a, #black4 a {
+color: white;
+padding: 56px;
+padding-top: 0.4px;
+padding-bottom: 0.4px;
 }
