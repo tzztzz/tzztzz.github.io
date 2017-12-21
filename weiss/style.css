@@ -114,6 +114,13 @@ font-style: italic;
 color: #262626;
 }
 
+#searchpic {
+  position: relative;
+  top: 7px;
+  left: -5px;
+  border: solid black 1px;
+  border-left: 0px;
+}
 ::-webkit-input-placeholder {
    font-style: italic;
 }
