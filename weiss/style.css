@@ -114,6 +114,8 @@ font-style: italic;
 color: #262626;
 height: 20px;
 padding: 1px;
+position: relative;
+top: 0.42px;
 }
 
 #searchpic {
