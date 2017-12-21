@@ -184,6 +184,14 @@ padding: 3px;
 text-decoration: none;
 }
 
+.bbutton:hover {
+background: white;
+}
+    
+.bbutton h2:hover {
+color: black
+}
+
 #foot {
 height: 1px; 
 width: 264px; 
@@ -196,13 +204,21 @@ position: relative;
 top: -50px;  
 }
 
-#black1, #black2, #black3, #black4 {
+#black {
 background: black;
 }
 
-#black1 a, #black2 a, #black3 a, #black4 a {
+#black:hover {
+background: white;
+}
+
+#black a {
 color: white;
 padding: 56px;
 padding-top: 0.4px;
 padding-bottom: 0.4px;
+}
+
+#black a:hover {
+color: black;
 }
