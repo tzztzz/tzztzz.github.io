@@ -240,3 +240,14 @@ padding-bottom: 0.4px;
 #black a:hover {
 color: black;
 }
+
+#lang {
+display: inline; 
+text-decoration: none; 
+color: black; 
+font-size: 9pt; 
+}
+
+#lang:hover {
+text-decoration: underline;
+}
